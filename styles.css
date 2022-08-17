@@ -80,6 +80,10 @@ h2 {
   margin-bottom: 2rem;
 }
 
+section:nth-child(3) > h2 {
+  text-align: right;
+}
+
 p {
   font-size: 0.6rem;
   line-height: 1rem;
