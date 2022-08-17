@@ -155,7 +155,10 @@ a:hover {
   transition: background-color 0.5s linear, color 0.5s linear;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1560px) {
+  body {
+    overflow-x: hidden;
+  }
   main {
     flex-direction: column;
     width: 100vw;
@@ -194,7 +197,7 @@ a:hover {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1560px) {
   section:nth-child(2) {
     perspective: 1500px;
     transform: rotate3d(.5,-.866,0,15deg) rotate(2deg);
